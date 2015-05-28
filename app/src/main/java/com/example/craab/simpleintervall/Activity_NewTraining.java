@@ -6,20 +6,20 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Activity_StartScreen extends ActionBarActivity {
+public class Activity_NewTraining extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start_screen);
-        //asf
+        setContentView(R.layout.activity_newtraining);
+        // afjdsaölf
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_activity__start_screen, menu);
+        getMenuInflater().inflate(R.menu.menu_activity__new_training, menu);
         return true;
     }
 
